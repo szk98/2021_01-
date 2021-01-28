@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    height: 1000px;
+    width: 1000px;
+}    
+
+.purple{
+    background: purple;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin-left: 450px;
+    top: 200px;
+}
+
+.yellow{
+    background: yellow;
+    width: 1000px;
+    height: 500px;
+}

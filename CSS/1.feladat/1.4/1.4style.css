@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;  
+}
+
+.container{
+    display: flex;
+    width: 1000px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+/*flex grow off */
+
+.green{
+    background: lightgreen;
+    order: 1;
+    height: 100px;
+}
+.yellow{
+    background: yellow;
+    order: 3;
+    height: 200px;
+}
+.purple{
+    background:purple;
+    order: 2;
+    height: 100px;
+}
